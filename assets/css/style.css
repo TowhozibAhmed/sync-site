@@ -1,0 +1,584 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    color: #0C0032;
+    font-family: 'Morjuis';
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+body {
+    color: #0C0032;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+@font-face {
+    font-family: 'Morjuis';
+    src: url('../fonts/Morjuis.woff2') format('woff2'),
+        url('../fonts/Morjuis.woff') format('woff'),
+        url('../fonts/Morjuis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+
+
+/*---------------------- Header area start ----------------------*/
+
+.menu-close {
+    font-size: 22px;
+    color: #3d424e;
+    position: absolute;
+    top: 18px;
+    left: 19px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.menu-close:hover {
+    color: #2AB66A;
+}
+
+.offcanvas-area {
+    position: fixed;
+    right: -100%;
+    height: 100%;
+    width: 300px;
+    background: #F5FCFF;
+    z-index: 6;
+    padding-top: 35px;
+    -webkit-transition: .4s;
+    transition: .4s;
+    visibility: hidden;
+    top: 0;
+}
+
+.offcanvas-area {
+    max-height: 100vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 50px;
+}
+
+.offcanvas-area::-webkit-scrollbar {
+    display: none;
+}
+
+.offcanvas-area.active {
+    right: 0;
+    visibility: visible;
+}
+
+.offcanvas-area .main-menu ul li a {
+    font-size: 18px;
+    color: #3D424E;
+    margin-left: 30px;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.offcanvas-area .main-menu ul li a:hover, .offcanvas-area .main-menu ul li a[aria-expanded="true"] {
+    color: #2AB66A;
+}
+
+.offcanvas-menu .main-menu ul {
+    display: block;
+    padding-top: 94px;
+    padding-left: 0;
+    margin-bottom: 65px;
+}
+
+.offcanvas-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 5;
+}
+
+.offcanvas-overlay.active {
+    opacity: .4;
+    visibility: visible;
+}
+
+.menu-open {
+    font-size: 27px;
+    color: #2AB66A;
+    display: none;
+    cursor: pointer;
+    position: relative;
+    top: 2px;
+    margin-left: 20px;
+    margin-right: 8px;
+}
+
+.offcanvas-menu .common-btn {
+    font-size: 17px;
+    padding: 9px 30px;
+    border-radius: 12px;
+}
+
+.subb-menu {
+    padding-left: 10px;
+}
+
+.offcanvas-area .main-menu .subb-menu a {
+    font-size: 16px;
+    margin: 0px;
+    padding-left: 10px;
+    margin-left: 26px;
+    margin-bottom: 10px;
+}
+
+.offcanvas-area .main-menu .subb-menu a:last-child {
+    margin-bottom: 20px;
+}
+
+.header__area {
+    position: relative;
+    padding: 65px 0;
+}
+
+.header__area .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__open {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+    display: flex;
+    cursor: pointer;
+    transition: .3s;
+    align-items: center;
+}
+
+.menu-hamburger span {
+    display: block;
+    width: 70px;
+    height: 5px;
+    color: #0C0032;
+    background: #0C0032;
+    margin-bottom: 20px;
+    transition: .3s;
+    line-height: 1.1;
+    margin-left: 21px;
+    margin-top: 5px;
+}
+
+.menu-hamburger span:last-child {
+    margin-bottom: 0;
+}
+
+/*---------------------- Header area end ----------------------*/
+
+
+/*---------------------- Page Top area start ----------------------*/
+.page__top__area {
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 150px;
+    min-height: 198px;
+    display: block;
+}
+
+.page__top__area p {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 90px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.text--link {
+    color: #0C0032;
+    text-decoration: none;
+    border-bottom: 7px solid;
+    transition: .3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+/*---------------------- Page Top area end ----------------------*/
+
+/*---------------------- Content area start ----------------------*/
+.content__area {
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 180px;
+}
+
+.career__thumb__area .container-fluid {
+    padding: 0 45px;
+    margin-bottom: 170px;
+}
+
+.text--black h2, .text--black p {
+    color: #000;
+}
+
+h2 {
+    font-size: 68px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.text-md {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.content__btn {
+    display: inline-block;
+}
+
+.content__btn .common__btn {
+    min-width: 300px;
+}
+
+/*---------------------- Content area end ----------------------*/
+
+
+/*---------------------- Service area start ----------------------*/
+.service__card--tag {
+    font-size: 20px;
+    font-weight: 600;
+    color: #131415;
+    margin-bottom: 15px;
+}
+
+.service__card__title {
+    font-size: 40px;
+    color: #131415;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.service__card p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+    margin-bottom: 41px;
+}
+
+.service__card--btn {
+    display: inline-block;
+}
+
+.case__study__item .service__card__title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.case__study__item .service__card--tag {
+    color: #fff;
+}
+
+.common__btn.white--btn {
+    background: #000;
+}
+
+.common__btn.white--btn:hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+.case__study__area .container-fluid {
+    padding: 0 40px;
+}
+
+/*---------------------- Service area end ----------------------*/
+
+
+/*---------------------- Case Study area start ----------------------*/
+.case__study__content__wrapper {
+    max-width: 505px;
+}
+
+.case__study__item {
+    min-height: 625px;
+    width: 100%;
+    position: relative;
+    padding: 95px 100px;
+    margin-bottom: 100px;
+    background: url(../img/background/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+/*---------------------- Case Study area end ----------------------*/
+
+
+/*---------------------- Slider area start ----------------------*/
+.slider__area .container {
+    max-width: 1700px;
+}
+
+.slider__area .container {
+    margin-left: 8.7%;
+}
+
+.single__slide__item {
+    height: auto;
+    position: relative;
+    width: 100%;
+}
+
+.single__slide__item.no--after::after {
+    display: none;
+}
+
+.single__slide__item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide__item__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 78px 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    z-index: 2;
+}
+
+.single__slide__thumb {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.single__slide__item::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    z-index: 1;
+    background-color: #0C0032;
+    opacity: .7;
+}
+
+.slide__item__content p {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 195px;
+    line-height: 1.25;
+}
+
+.common__btn {
+    min-width: 250px;
+    height: 89px;
+    background: #0C0032;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .3s;
+    padding: 12px 25px;
+}
+
+.common__btn.btn--white {
+    border-color: #0C0032;
+    background: #fff;
+    color: #0C0032;
+}
+
+.common__btn.btn--white:hover {
+    background-color: #0C0032;
+    color: #fff;
+}
+
+.common__btn:hover {
+    color: #0c0032;
+    background: #fff;
+    border-color: #0c0032;
+}
+
+.common__btn span {
+    margin-left: 9px;
+}
+
+.text--padding {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.slide__content__tag {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.slide__content__tag span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.slide__item__content.extra--text p {
+    margin-bottom: 110px;
+}
+
+/*---------------------- Slider area end ----------------------*/
+
+/*---------------------- Newsletter area start ----------------------*/
+.newsletter__area {
+    position: relative;
+    background: #fff;
+    padding-bottom: 200px;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.newsletter__btn {
+    padding-top: 50px;
+}
+
+/*---------------------- Newsletter area end ----------------------*/
+
+
+/*---------------------- Footer area start ----------------------*/
+.footer__area {
+    background: #0C0032;
+    position: relative;
+    text-align: right;
+    padding-top: 115px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.footer__item__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 40px;
+}
+
+.footer__item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer__item ul li {
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.footer__item ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social__wrapper {
+    text-align: left;
+    padding-top: 90px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    padding-top: 34px;
+}
+
+.footer__social a {
+    margin-right: 25px;
+}
+
+.logo__footer {
+    padding-left: 13px;
+}
+
+.footer__bottom {
+    padding-top: 24px;
+}
+
+.footer__bottom p {
+    font-size: 20px;
+    line-height: 1.56;
+}
+
+.footer__logo__house {
+    text-align: left;
+    padding-bottom: 110px;
+}
+
+.footer__bottom .row {
+    align-items: flex-end;
+}
+
+/*---------------------- Footer area end ----------------------*/
