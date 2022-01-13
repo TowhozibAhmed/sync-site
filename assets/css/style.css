@@ -527,6 +527,10 @@ h4 {
     background-size: cover;
 }
 
+.text-black {
+    color: #000 !important;
+}
+
 .founder__case__study__card {
     width: 610px;
     min-height: 612px;
@@ -557,6 +561,112 @@ h4 {
 .founder__case__btn {
     display: inline-block;
 }
+
+/*---------------------- Team area start ----------------------*/
+
+.single__team__thumb {
+    margin-bottom: 45px;
+}
+
+.single__team__item__content h2 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: #131415;
+}
+
+.single__team__item__content p {
+    font-size: 50px;
+    color: #131415;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.team__area {
+    padding-bottom: 165px;
+    padding-top: 100px;
+}
+
+.team__items__wrapper {
+    padding-top: 25px;
+}
+
+.team__items__wrapper .owl-stage {
+    padding-left: 0 !important;
+}
+
+.single__team__thumb {
+    min-height: 900px;
+}
+
+.single__team__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single__team__item.team--item--odd {
+    padding-top: 80px;
+}
+
+/*---------------------- Team area end ----------------------*/
+
+/*---------------------- How area start ----------------------*/
+.text-lg {
+    font-size: 50px;
+    color: #000;
+    line-height: 1.24;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.how__area__content span {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.how__area__thumb__item {
+    min-height: 1000px;
+    display: flex;
+    align-items: flex-end;
+    padding: 90px 82px;
+}
+
+.how__area__thumb__content {
+    max-width: 650px;
+}
+
+.how__area__thumb__content p {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.how__area__top {
+    padding-bottom: 30px;
+}
+
+.how__area__thumbs .owl-stage {
+    padding-left: 0 !important;
+}
+
+.how__area__thumb__item.slide--2 {
+    margin-top: 70px;
+}
+
+.container.container--full {
+    padding-right: 0;
+}
+
+/*---------------------- How area end ----------------------*/
+
 
 /*---------------------- Founder Page area end ----------------------*/
 

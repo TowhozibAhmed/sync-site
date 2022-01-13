@@ -61,17 +61,16 @@
 
         });
 
-        $(".package-slider").owlCarousel({
-            items: 3,
-            nav: true,
+        $(".team__items__wrapper").owlCarousel({
+            items: 1,
+            nav: false,
             dot: false,
             loop: true,
             margin: 20,
             autoplay: false,
             autoplayTimeout: 3000,
             smartSpeed: 1000,
-            responsiveClass: true,
-            navText: ["<i class='fas fa-chevron-right'></i>", "<i class='fas fa-chevron-left'></i>"],
+            responsiveClass: true,  
             responsive: {
                 0: {
                     items: 1,
@@ -93,11 +92,55 @@
                 },
                 1200: {
                     items: 3,
-                    margin: 14,
+                    margin: 24,
                 },
-                1360: {
+                1400: {
+                    items: 1,
+                    margin: 30,
+                    stagePadding: 260
+                }
+            }
+
+
+        });
+
+        $(".how__area__thumbs").owlCarousel({
+            items: 1,
+            nav: false,
+            dot: false,
+            loop: true,
+            margin: 20,
+            autoplay: false,
+            autoplayTimeout: 3000,
+            smartSpeed: 1000,
+            responsiveClass: true, 
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                575: {
+                    items: 1,
+                    margin: 7,
+                },
+                750: {
+                    items: 2,
+                    margin: 7,
+                },
+                768: {
+                    items: 2,
+                },
+                991: {
                     items: 3,
-                    margin: 20,
+                    margin: 12,
+                },
+                1200: {
+                    items: 3,
+                    margin: 24,
+                },
+                1400: {
+                    items: 1,
+                    margin: 30,
+                    stagePadding: 260
                 }
             }
 
