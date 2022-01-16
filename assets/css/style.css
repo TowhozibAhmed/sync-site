@@ -834,6 +834,26 @@ h4 {
 
 /*---------------------- Video area end ----------------------*/
 
+/*---------------------- Sponsor area start ----------------------*/
+.sponsor__items__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 140px;
+}
+
+.single__sponsor__card {
+    height: 284.51px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*---------------------- Sponsor area end ----------------------*/
+
+
 
 
 /*---------------------- About Page area end ----------------------*/
