@@ -922,6 +922,18 @@ h3 {
     font-size: 20px;
 }
 
+.product--page .how__area__thumb__content {
+    max-width: 100%;
+}
+
+.product--page .how__area__thumb__content p {
+    font-size: 37px;
+}
+
+.how__do__area {
+    padding-top: 130px;
+}
+
 /*---------------------- How area end ----------------------*/
 
 
@@ -981,6 +993,28 @@ h3 {
 }
 
 /*---------------------- Monitor area end ----------------------*/
+
+
+/*---------------------- Touch area start ----------------------*/
+.how__thumb__area {
+    padding-top: 115px;
+}
+
+.touch__content p {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 75px;
+}
+
+.touch__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+
+/*---------------------- Touch area end ----------------------*/
 
 
 
