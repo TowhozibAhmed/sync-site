@@ -180,6 +180,13 @@ a:hover {
     padding: 65px 0;
 }
 
+.header__area.position-absolute {
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
 .header__area .container {
     display: flex;
     justify-content: space-between;
@@ -377,6 +384,110 @@ h4 {
     background-position: center;
     background-size: cover;
     color: #fff;
+}
+
+.single__caseStudy__content__wrapper {
+    width: 520px;
+    background: #fff;
+    padding: 66px 38px;
+    color: #0c0032;
+    max-height: 520px;
+    margin-left: auto;
+}
+
+
+.single__caseStudy__item__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single__caseStudy__item {
+    display: flex;
+    padding-left: 30px;
+    align-items: flex-end;
+}
+
+.single__caseStudy__item__content {
+    flex: 0 0 42%;
+    margin-right: -115px;
+    position: relative;
+    z-index: 2;
+}
+
+.case__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+
+.single__caseStudy__content__wrapper h3 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 15px;
+}
+
+.single__caseStudy__content__wrapper p {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 415px;
+    margin-bottom: 31px;
+}
+
+.caseStudy__item__btn {
+    display: inline-block;
+}
+
+.single__caseStudy__item__thumb {
+    max-width: 1200px;
+    height: 805px;
+    margin-left: auto;
+    margin-bottom: 35px;
+    flex: 0 0 64%;
+}
+
+.single__caseStudy__item.odd {
+    flex-direction: row-reverse;
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.single__caseStudy__item.odd .single__caseStudy__content__wrapper {
+    margin-left: 0;
+}
+
+.single__caseStudy__item.odd .single__caseStudy__item__content {
+    margin-left: -115px;
+    margin-right: 0;
+}
+
+.single__caseStudy__item.odd .single__caseStudy__item__thumb {
+    margin-bottom: 105px;
+}
+
+.single__caseStudy__item__left__wrap {
+    writing-mode: sideways-lr;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 52px;
+    padding-right: 10px;
+}
+
+.single__caseStudy__item__left__wrap p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+
+.study__title {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 1.1;
 }
 
 /*---------------------- Case Study area end ----------------------*/
@@ -1245,6 +1356,7 @@ h3 {
 .footer__logo__house {
     text-align: left;
     padding-bottom: 110px;
+    padding-left: 12px;
 }
 
 .footer__bottom .row {
