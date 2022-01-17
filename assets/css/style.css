@@ -468,12 +468,13 @@ h4 {
 }
 
 .single__caseStudy__item__left__wrap {
-    writing-mode: sideways-lr;
+    writing-mode: vertical-rl;
     position: absolute;
     left: 0;
     bottom: 0;
-    padding-bottom: 52px;
+    padding-top: 50px;
     padding-right: 10px;
+    transform: rotate(180deg);
 }
 
 .single__caseStudy__item__left__wrap p {
@@ -481,7 +482,7 @@ h4 {
     font-weight: 500;
     line-height: 1.1;
     margin-bottom: 0;
-    margin-right: 25px;
+    margin-right: 0;
 }
 
 .study__title {
