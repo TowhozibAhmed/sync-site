@@ -389,9 +389,9 @@ h4 {
 .single__caseStudy__content__wrapper {
     width: 520px;
     background: #fff;
-    padding: 66px 38px;
+    padding: 60px 38px;
     color: #0c0032;
-    max-height: 520px;
+    min-height: 520px;
     margin-left: auto;
 }
 
@@ -404,7 +404,7 @@ h4 {
 
 .single__caseStudy__item {
     display: flex;
-    padding-left: 30px;
+    padding-left: 35px;
     align-items: flex-end;
 }
 
@@ -433,11 +433,19 @@ h4 {
     font-size: 18px;
     font-weight: 500;
     max-width: 415px;
-    margin-bottom: 31px;
+    margin-bottom: 20px;
+}
+
+.single__caseStudy__content__wrapper p:last-child {
+    margin-bottom: 0
 }
 
 .caseStudy__item__btn {
     display: inline-block;
+}
+
+.single__caseStudy__content__wrapper p b {
+    padding-right: 38px
 }
 
 .single__caseStudy__item__thumb {
@@ -492,6 +500,56 @@ h4 {
 }
 
 /*---------------------- Case Study area end ----------------------*/
+
+
+/*---------------------- Goal area start ----------------------*/
+
+.goal__area .common__title {
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.goal__area {
+    padding-top: 195px;
+}
+
+.study__title__sm {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1;
+    display: block;
+    width: 100%;
+}
+
+.why__hard__area {
+    padding-top: 180px;
+}
+
+.why__hard__area .common__title {
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.why__hard__content__wrapper p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    padding-right: 0;
+}
+
+.why__hard__btn {
+    display: inline-block;
+    padding-top: 12px;
+}
+
+.why__hard__thumb {
+    margin-right: -40px;
+}
+
+/*---------------------- Goal area end ----------------------*/
+
+
 
 
 /*---------------------- Slider area start ----------------------*/
