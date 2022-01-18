@@ -74,34 +74,50 @@
             responsive: {
                 0: {
                     items: 1,
+                    margin: 12,
+                    stagePadding: 10
+                },
+                450: {
+                    items: 1,
+                    margin: 12,
+                    stagePadding: 20
                 },
                 575: {
-                    items: 1,
-                    margin: 7,
+                    items: 1, 
+                    margin: 12,
+                    stagePadding: 50
                 },
-                750: {
-                    items: 2,
-                    margin: 7,
+                650: { 
+                    items: 1,
+                    margin: 16,
+                    stagePadding: 80
                 },
                 768: {
-                    items: 2,
+                    items: 1,
+                    margin: 16,
+                    stagePadding: 100
                 },
                 991: {
-                    items: 3,
-                    margin: 12,
+                    items: 1,
+                    margin: 19,
+                    stagePadding: 150
+                },
+                1100: {
+                    items: 1,
+                    margin: 20,
+                    stagePadding: 190
                 },
                 1200: {
-                    items: 3,
-                    margin: 24,
+                    items: 1,
+                    margin: 25,
+                    stagePadding: 260
                 },
                 1400: {
                     items: 1,
                     margin: 30,
                     stagePadding: 260
                 }
-            }
-
-
+            } 
         });
 
         $(".how__area__thumbs").owlCarousel({
@@ -117,25 +133,48 @@
             responsive: {
                 0: {
                     items: 1,
+                    margin: 12,
+                    stagePadding: 10
+                },
+                450: {
+                    items: 1,
+                    margin: 12,
+                    stagePadding: 20
                 },
                 575: {
-                    items: 1,
-                    margin: 7,
+                    items: 1, 
+                    margin: 12,
+                    stagePadding: 50
                 },
-                750: {
-                    items: 2,
-                    margin: 7,
+                650: { 
+                    items: 1,
+                    margin: 15,
+                    stagePadding: 80
                 },
                 768: {
-                    items: 2,
+                    items: 1, 
+                    margin: 16,
+                    stagePadding: 100
                 },
                 991: {
-                    items: 3,
-                    margin: 12,
+                    items: 1, 
+                    margin: 19,
+                    stagePadding: 150
+                },
+                1100: {
+                    items: 1,
+                    margin: 20,
+                    stagePadding: 190
                 },
                 1200: {
-                    items: 3,
-                    margin: 24,
+                    items: 1,
+                    margin: 20,
+                    stagePadding: 230
+                },
+                1300: {
+                    items: 1,
+                    margin: 25,
+                    stagePadding: 260
                 },
                 1400: {
                     items: 1,

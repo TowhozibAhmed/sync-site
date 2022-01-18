@@ -834,6 +834,7 @@ h4 {
 
 .container.container--full {
     padding-right: 0;
+    overflow: hidden;
 }
 
 /*---------------------- How area end ----------------------*/
