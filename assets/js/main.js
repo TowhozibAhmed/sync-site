@@ -32,25 +32,23 @@
             responsive: {
                 0: {
                     items: 1,
-                },
+                } ,
                 575: {
                     items: 1,
-                    margin: 7,
-                },
-                750: {
-                    items: 2,
-                    margin: 7,
+                    margin: 15,
+                    stagePadding: 50
                 },
                 768: {
                     items: 2,
+                    margin: 20,
                 },
                 991: {
-                    items: 3,
-                    margin: 12,
+                    items: 2,
+                    margin: 25,
                 },
                 1200: {
-                    items: 3,
-                    margin: 14,
+                    items: 2,
+                    margin: 30,
                 },
                 1500: {
                     items: 2,

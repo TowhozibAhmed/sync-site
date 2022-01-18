@@ -558,7 +558,9 @@ h4 {
 }
 
 .slider__area .container {
-    margin-left: 8.7%;
+    padding-left: 8.7%;
+    margin-left: 0;
+    padding-right: 0;
 }
 
 .single__slide__item {
@@ -678,7 +680,9 @@ h4 {
 }
 
 .slider__area.slider--2 .container {
-    margin-right: 8.7%;
+    padding-right: 8.7%;
+    margin-right: 0;
+    padding-left: 0;
     margin-left: auto;
 }
 
