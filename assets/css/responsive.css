@@ -1,8 +1,113 @@
-@media (min-width: 320px) and (max-width: 1800px) {}
+@media (min-width: 320px) and (max-width: 1800px) {
 
-@media (min-width: 320px) and (max-width: 1700px) {}
+    .study__title {
+        font-size: 67px;
+        line-height: 1;
+    }
+
+    .single__caseStudy__item__left__wrap p {
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-left: 11px;
+        margin-right: 0;
+    }
+
+
+    .single__caseStudy__item {
+        padding-left: 30px;
+    }
+
+
+
+    .study__title__sm {
+        font-size: 42px;
+        line-height: 1.1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 1700px) {
+
+
+
+    .single__caseStudy__item__thumb {
+        height: 805px;
+        flex: 0 0 62%;
+    }
+
+    .single__caseStudy__item__content {
+        flex: 0 0 45%;
+        margin-right: -115px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 @media (min-width: 320px) and (max-width: 1600px) {
+
+
+    .single__caseStudy__item__content {
+        flex: 0 0 48%;
+        margin-right: -130px;
+    }
+
+    .single__caseStudy__item__thumb {
+        height: 725px;
+        flex: 0 0 60%;
+    }
+
+    .single__caseStudy__content__wrapper {
+        width: 480px;
+        padding: 63px 33px;
+        min-height: 484px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     .header__area {
         padding: 55px 0;
     }
@@ -41,10 +146,18 @@
 
 
 
+    .play__btn {
+        max-width: 140px;
+    }
 
+    .video__wrapper {
+        height: 840px;
+        margin-bottom: 160px;
+    }
 
-
-
+    .startup__thumb__area {
+        padding: 0 15px;
+    }
 
 
 
@@ -62,6 +175,36 @@
 }
 
 @media (min-width: 320px) and (max-width: 1500px) {
+
+
+    .video__wrapper {
+        height: 800px;
+        margin-bottom: 145px;
+    }
+
+    .sponsor__items__wrapper {
+        max-width: 1080px;
+        padding-bottom: 135px;
+    }
+
+    .single__sponsor__card {
+        height: 258.51px;
+    }
+
+    .single__caseStudy__content__wrapper h3 {
+        font-size: 38px;
+    }
+
+    .study__title {
+        font-size: 63px;
+        line-height: 1;
+    }
+
+    .single__caseStudy__item {
+        padding-left: 23px;
+    }
+
+
 
 
     .case__study__item {
@@ -127,6 +270,49 @@
 
 @media (min-width: 320px) and (max-width: 1400px) {
 
+
+    .single__caseStudy__item__thumb {
+        height: 630px;
+        flex: 0 0 58%;
+    }
+
+
+
+    .single__caseStudy__content__wrapper {
+        width: 455px;
+        padding: 55px 29px;
+        min-height: 445px;
+    }
+
+    .single__caseStudy__content__wrapper h3 {
+        font-size: 36px;
+    }
+
+    .case__title {
+        font-size: 19px;
+        margin-bottom: 14px;
+    }
+
+    .single__caseStudy__item__content {
+        flex: 0 0 51%;
+        margin-right: -130px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .service__card__title {
         font-size: 36px;
         margin-bottom: 21px;
@@ -152,9 +338,19 @@
         padding-bottom: 165px;
     }
 
+    .video__wrapper {
+        height: 735px;
+        margin-bottom: 135px;
+    }
 
+    .deal__content__title {
+        font-size: 58px;
+        margin-bottom: 125px;
+    }
 
-
+    h3 {
+        font-size: 55px;
+    }
 
 
 
@@ -258,7 +454,7 @@
     }
 
     h2 {
-        font-size: 62px;
+        font-size: 60px;
     }
 
 
@@ -320,6 +516,48 @@
 }
 
 @media (min-width: 320px) and (max-width: 1300px) {
+
+
+
+
+    .single__caseStudy__item__content {
+        flex: 0 0 55%;
+        margin-right: -130px;
+    }
+
+    .single__caseStudy__item__thumb {
+        height: 630px;
+        flex: 0 0 57%;
+    }
+
+
+    .single__caseStudy__content__wrapper {
+        width: 438px;
+        padding: 50px 28px;
+        min-height: 438px;
+    }
+
+    .study__title {
+        font-size: 60px;
+    }
+
+    .single__caseStudy__item {
+        padding-left: 20px;
+    }
+
+    .single__caseStudy__item.odd {
+        padding-right: 25px;
+    }
+
+    .single__caseStudy__content__wrapper h3 {
+        font-size: 35px;
+    }
+
+
+
+
+
+
     .service__card__title {
         font-size: 33px;
         margin-bottom: 20px;
@@ -346,11 +584,23 @@
         height: 68px;
     }
 
+    .video__wrapper {
+        height: 680px;
+        margin-bottom: 120px;
+    }
 
+    .play__btn {
+        max-width: 128px;
+    }
 
+    .single__sponsor__card {
+        height: 230.51px;
+    }
 
-
-
+    .sponsor__items__wrapper {
+        max-width: 950px;
+        padding-bottom: 125px;
+    }
 
 
 
@@ -369,6 +619,98 @@
 }
 
 @media (min-width: 320px) and (max-width: 1200px) {
+    .study__title__sm {
+        font-size: 39px;
+    }
+
+    .single__caseStudy__content__wrapper {
+        width: 420px;
+        padding: 42px 26px;
+        min-height: 415px;
+    }
+
+    .single__caseStudy__content__wrapper h3 {
+        font-size: 34px;
+    }
+
+    .single__caseStudy__content__wrapper p {
+        font-size: 18px;
+        max-width: 415px;
+        margin-bottom: 23px;
+    }
+
+    .case__title {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+
+    .study__title {
+        font-size: 54px;
+        line-height: .9;
+    }
+
+    .single__caseStudy__item__thumb {
+        height: 590px;
+        flex: 0 0 56%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .video__wrapper {
+        height: 585px;
+        margin-bottom: 105px;
+    }
+
+    .play__btn {
+        max-width: 117px;
+    }
+
+    .single__sponsor__card {
+        height: 199.51px;
+    }
+
+
+    .sponsor__items__wrapper {
+        max-width: 860px;
+        padding-bottom: 115px;
+    }
+
+    h3 {
+        font-size: 48px;
+    }
+
+    .monitor__content__title {
+        font-size: 40px;
+        margin-bottom: 25px;
+    }
+
+    .exclusive__service__area a {
+        font-size: 19px;
+        padding-top: 20px;
+        margin-bottom: 35px;
+    }
+
+    .deal__content__title {
+        font-size: 50px;
+        margin-bottom: 125px;
+    }
+
+    .founder__case__study__wrapper {
+        padding-top: 100px;
+        padding-bottom: 85px;
+    }
+
+
 
 
     h1 {
@@ -552,7 +894,7 @@
 
 
     h2 {
-        font-size: 55px;
+        font-size: 50px;
     }
 
     .menu__open {
@@ -635,6 +977,10 @@
         font-size: 35px;
     }
 
+    .product--page .how__area__thumb__content p {
+        font-size: 30px;
+    }
+
     .text-lg {
         font-size: 37px;
     }
@@ -661,7 +1007,242 @@
 
 }
 
+@media (min-width: 320px) and (max-width: 1100px) {
+
+    .study__title__sm {
+        font-size: 36px;
+        line-height: 1;
+    }
+
+    .why__hard__content__wrapper p {
+        font-size: 19px;
+        margin-bottom: 25px;
+    }
+
+    .single__caseStudy__content__wrapper {
+        width: 390px;
+        padding: 39px 23px;
+        min-height: 400px;
+    }
+
+    .single__caseStudy__content__wrapper h3 {
+        font-size: 32px;
+    }
+
+    .single__caseStudy__item {
+        padding-left: 15px;
+    }
+
+    .study__title {
+        font-size: 50px;
+        line-height: .9;
+    }
+
+    .single__caseStudy__item__left__wrap p {
+        font-size: 19px;
+        margin-left: 12px;
+    }
+
+    .single__caseStudy__item__content {
+        flex: 0 0 56%;
+        margin-right: -130px;
+    }
+
+
+}
+
 @media (min-width: 320px) and (max-width: 991px) {
+    .why__hard__area .row {
+        flex-direction: column-reverse;
+    }
+
+    .why__hard__thumb {
+        margin-right: 0;
+        margin-bottom: 35px;
+    }
+
+    .caseStudy__area.st-2 {
+        padding-top: 0;
+    }.caseStudy__area.st-2 .single__caseStudy__item.pt-0 {
+        padding-top: 0 !important;
+    }
+
+    .single__caseStudy__item {
+        flex-direction: column-reverse;
+        padding: 0 20px !important;
+        padding-top: 105px !important;
+    }
+
+    .caseStudy__area {
+        padding-top: 100px;
+    }
+
+    .single__caseStudy__item__left__wrap p {
+        font-size: 19px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .single__caseStudy__item__left__wrap {
+        writing-mode: inherit;
+        position: inherit;
+        left: 0;
+        bottom: 0;
+        padding-top: 0;
+        padding-right: 0;
+        transform: none;
+        margin-bottom: 30px;
+    }
+
+    .single__caseStudy__content__wrapper {
+        margin-left: 0;
+    }
+
+    .single__caseStudy__item.odd .single__caseStudy__item__thumb {
+        margin-bottom: 45px;
+    }
+
+    .single__caseStudy__item__left__wrap {
+        writing-mode: inherit;
+        position: inherit;
+        left: 0;
+        bottom: 0;
+        padding-top: 0;
+        padding-right: 10px;
+        transform: none;
+        margin-bottom: 29px;
+    }
+
+    .single__caseStudy__item__content {
+        flex: 0 0 100%;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .single__caseStudy__item.odd {
+        flex-direction: column-reverse;
+    }
+
+    .single__caseStudy__item__thumb {
+        height: 590px;
+        flex: 0 0 100%;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .single__caseStudy__item.odd .single__caseStudy__item__content {
+        margin: 0 auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .product--page .how__area__thumb__content p {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 41px;
+    }
+
+    .how__items__wrapper {
+        max-width: 440px;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .single__how__item {
+        padding: 82px 0;
+    }
+
+    .exclusive__service__area p {
+        font-size: 27px;
+    }
+
+    .exclusive__service__area .g-5, .exclusive__service__area .gy-5 {
+        --bs-gutter-y: 1rem;
+    }
+
+    .exclusive__service__area .g-5, .exclusive__service__area .gx-5 {
+        --bs-gutter-x: 1rem;
+    }
+
+    .monitor__area {
+        padding-top: 140px;
+        padding-bottom: 104px;
+    }
+
+    .deal__content__title {
+        font-size: 40px;
+        margin-bottom: 96px;
+    }
+
+    .monitor__content__title {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .exclusive__service__area a {
+        font-size: 18px;
+        padding-top: 18px;
+        margin-bottom: 30px;
+    }
+
+    .founder__case__study__wrapper {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+
+
+    .video__wrapper {
+        height: 490px;
+        margin-bottom: 90px;
+    }
+
+
+    .play__btn {
+        max-width: 99px;
+    }
+
+    .single__sponsor__card {
+        height: 165.51px;
+    }
+
+
+    .sponsor__items__wrapper {
+        max-width: 705px;
+        padding-bottom: 100px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     h1 {
         font-size: 49px;
     }
@@ -972,6 +1553,106 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+    
+    .study__title__sm {
+        font-size: 34px; 
+    }
+
+    .goal__area .common__title { 
+        padding-bottom: 95px;
+    }
+    .goal__area {
+        padding-top: 170px;
+    }
+
+
+    .product--page .how__area__thumb__content p {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    .how__content__title {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    .how__content__wrapper p {
+        font-size: 21px;
+    }
+
+    .how__num {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .monitor__content__title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .deal__content__title {
+        font-size: 34px;
+        margin-bottom: 80px;
+    }
+
+    .exclusive__service__area p {
+        font-size: 26px;
+        margin-bottom: 35px;
+    }
+
+    .founder__case__study__wrapper {
+        padding-top: 55px;
+        padding-bottom: 60px;
+    }
+
+    .exclusive__service__area {
+        padding-top: 80px;
+        padding-bottom: 125px;
+    }
+
+
+
+
+
+
+
+
+    .video__wrapper {
+        height: 425px;
+        margin-bottom: 84px;
+    }
+
+    .play__btn {
+        max-width: 93px;
+    }
+
+    .startup__thumb__area {
+        padding: 0 8px;
+    }
+
+
+    .text-md {
+        font-size: 20px;
+    }
+
+    .single__sponsor__card {
+        height: 145.51px;
+        padding: 0 21px;
+    }
+
+    .sponsor__items__wrapper {
+        max-width: 549px;
+        padding-bottom: 90px;
+    }
+
+
+
+
+
+
 
 
     .career__thumb__area .container-fluid {
@@ -999,7 +1680,10 @@
     .slider__area .owl-stage {
         padding-left: 0 !important;
     }
-    .slider__area.slider--2 .owl-stage { 	padding-right: 0 !important; }
+
+    .slider__area.slider--2 .owl-stage {
+        padding-right: 0 !important;
+    }
 
 
 
@@ -1296,6 +1980,138 @@
 }
 
 @media (min-width: 320px) and (max-width: 575px) {
+    .goal__area {
+        padding-top: 140px;
+    }.goal__area .common__title {
+        padding-bottom: 80px;
+    }
+
+
+    .study__title {
+        font-size: 37px;
+    }
+
+
+    .single__caseStudy__item__thumb {
+        height: auto;
+        flex: 0 0 100%;
+        margin: 0;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    .single__caseStudy__item {
+        flex-direction: column-reverse;
+        padding: 0 15px !important;
+        padding-top: 70px !important;
+    }
+
+
+    .single__caseStudy__content__wrapper {
+        max-width: 390px;
+        padding: 39px 23px;
+        min-height: 400px;
+        width: auto;
+    }
+
+    .single__caseStudy__content__wrapper h3 {
+        font-size: 28px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .product--page .how__area__thumb__content p {
+        font-size: 20px;
+    }
+
+    .how__do__area {
+        padding-top: 60px;
+    }
+
+
+    h3 {
+        font-size: 27px;
+    }
+
+    .how__title__wrapper {
+        padding-bottom: 65px;
+    }
+
+    .single__how__item {
+        padding: 65px 0;
+    }
+
+    .how__content__wrapper p {
+        font-size: 18px;
+    }
+
+    .how__content__wrapper p b {
+        font-size: 18px;
+    }
+
+    .how__content__title {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .how__num {
+        font-size: 27px;
+        margin-bottom: 23px;
+    }
+
+    .single__how__box {
+        padding: 10px 12px;
+        height: 130px;
+    }
+
+    .line {
+        width: 17px;
+        height: 4px;
+        margin-bottom: 9px;
+    }
+
+    .single__how__box p {
+        font-size: 17px;
+    }
+
+    .monitor__content__title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .exclusive__service__area {
+        padding-top: 65px;
+        padding-bottom: 85px;
+    }
+
+    .deal__content__title {
+        font-size: 28px;
+        margin-bottom: 60px;
+    }
+
+    .touch__content p {
+        font-size: 31px;
+        margin-bottom: 60px;
+    }
+
+    .touch__content {
+        padding: 35px 5px;
+    }
+
+
+
+
 
     h1 {
         font-size: 36px;
@@ -1309,17 +2125,39 @@
         padding-top: 80px;
         padding-bottom: 55px;
     }
+
     .content__btn .common__btn {
         min-width: 235px;
     }
 
+    .video__wrapper {
+        height: 364px;
+        margin-bottom: 70px;
+    }
+
+    .play__btn {
+        max-width: 81px;
+    }
+
+    .startup__thumb__area {
+        padding: 0 8px;
+    }
 
 
+    .sponsor__items__wrapper .col-3 {
+        flex: 0 0 auto;
+        width: 33.3%;
+    }
 
 
+    .single__sponsor__card {
+        height: 120.51px;
+        padding: 0 21px;
+    }
 
-
-
+    .sponsor__items__wrapper {
+        max-width: 360px;
+    }
 
 
 
@@ -1635,12 +2473,3 @@
 
 
 }
-
-
-@media (min-width: 320px) and (max-width: 1800px) {}
-
-@media (min-width: 320px) and (max-width: 1800px) {}
-
-@media (min-width: 320px) and (max-width: 1800px) {}
-
-@media (min-width: 320px) and (max-width: 1800px) {}
