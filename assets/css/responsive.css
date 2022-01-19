@@ -1063,7 +1063,9 @@
 
     .caseStudy__area.st-2 {
         padding-top: 0;
-    }.caseStudy__area.st-2 .single__caseStudy__item.pt-0 {
+    }
+
+    .caseStudy__area.st-2 .single__caseStudy__item.pt-0 {
         padding-top: 0 !important;
     }
 
@@ -1553,14 +1555,15 @@
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-    
+
     .study__title__sm {
-        font-size: 34px; 
+        font-size: 34px;
     }
 
-    .goal__area .common__title { 
+    .goal__area .common__title {
         padding-bottom: 95px;
     }
+
     .goal__area {
         padding-top: 170px;
     }
@@ -1982,7 +1985,9 @@
 @media (min-width: 320px) and (max-width: 575px) {
     .goal__area {
         padding-top: 140px;
-    }.goal__area .common__title {
+    }
+
+    .goal__area .common__title {
         padding-bottom: 80px;
     }
 
